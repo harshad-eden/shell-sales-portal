@@ -1,12 +1,7 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import {
-  Card,
-  CardHeader,
-  CardTitle,
-  CardContent,
-  Button,
-} from "@insurance/shared-ui";
+import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
+import { Button } from "./ui/button";
 
 export default function Dashboard() {
   const location = useLocation();

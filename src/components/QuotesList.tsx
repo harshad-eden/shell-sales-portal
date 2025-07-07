@@ -1,6 +1,7 @@
 import React from 'react';
-import { Card, CardHeader, CardTitle, CardContent, Button } from '@insurance/shared-ui';
-import type { Quote } from '@insurance/shared-types';
+import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import type { Quote } from '../types';
 
 const mockQuotes: Quote[] = [
   {

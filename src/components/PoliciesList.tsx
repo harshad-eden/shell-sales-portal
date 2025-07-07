@@ -1,6 +1,7 @@
 import React from 'react';
-import { Card, CardHeader, CardTitle, CardContent, Button } from '@insurance/shared-ui';
-import type { Policy } from '@insurance/shared-types';
+import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';
+import { Button } from '../components/ui/button';
+import type { Policy } from '../types';
 
 const mockPolicies: Policy[] = [
   {
