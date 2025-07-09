@@ -12,7 +12,7 @@ export default function Dashboard() {
     <div className="p-6">
       {/* Portal Indicator Banner */}
       <h1 className="text-2xl font-bold text-gray-900">
-        {user?.name} is logged in to the Sales Portal
+        Hi {user?.name} is logged in to the Sales Portal
       </h1>
       <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
         <h3 className="text-sm font-medium text-blue-800">
